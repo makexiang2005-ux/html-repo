@@ -1,0 +1,41 @@
+body{
+    font-family: Inter, sans-serif;
+}
+
+h1{
+    color:blue;
+}
+
+ol{
+    line-height: 2;
+    padding-left: 100px;
+}
+
+div{
+    border:red solid 2p;
+    background-color:lightblue;
+}
+
+.start WithDraw{
+        background-color:yellow;
+}
+
+.startsWithP{
+    background-color:blue;
+}
+
+
+#titleOfPage{
+    color:green;
+}
+
+ul li{
+    background-color:blue;
+}
+
+<ol>
+    <li>pizza</li>
+
+ol li.madeFromCorn {
+    background-color:yellow;
+}

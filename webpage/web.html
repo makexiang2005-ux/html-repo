@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumset</title>
+</head>
+<body>
+    <audio id="myAudio" src="crash.mp3"></audio>
+    <button id="playButton"></button>
+
+    <script>
+        const audioPlayer = document.getElementById('myAudio');
+        const playButton = document.getElementById('playButton');
+
+        playButton.addEventListener('click', function() {
+            audioPlayer.play();
+        });
+    </script>
+</body>
+</html>

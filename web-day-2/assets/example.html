@@ -1,0 +1,13 @@
+
+<img src="image1.jpg" onclick="playAudio('myAudio1')">
+<img src="image2.jpg" onclick="playAudio('myAudio2')">
+
+<audio id="myAudio1" src="sound1.mp3"></audio>
+<audio id="myAudio2" src="sound2.mp3"></audio>
+
+<script>
+  function playAudio(audioId) {
+    var audio = document.getElementById(audioId);
+    audio.play();
+  }
+</script>

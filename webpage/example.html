@@ -1,0 +1,24 @@
+
+<img src="crash.png" onclick="playAudio('myAudio1')">
+<img src="kick.png" onclick="playAudio('myAudio2')">
+<img src="snare.png" onclick="playAudio('myAudio3')">
+<img src="tom1.png" onclick="playAudio('myAudio4')">
+<img src="tom2.png" onclick="playAudio('myAudio5')">
+<img src="tom3.png" onclick="playAudio('myAudio6')">
+<img src="tom4.png" onclick="playAudio('myAudio7')">
+
+<audio id="myAudio1" src="crash.mp3"></audio>
+<audio id="myAudio2" src="kick-bass.mp3"></audio>
+<audio id="myAudio3" src="snare.mp3"></audio>
+<audio id="myAudio4" src="tom-1.mp3"></audio>
+<audio id="myAudio5" src="tom-2.mp3"></audio>
+<audio id="myAudio6" src="tom-3.mp3"></audio>
+<audio id="myAudio7" src="tom-4.mp3"></audio>
+
+
+<script>
+  function playAudio(audioId) {
+    var audio = document.getElementById(audioId);
+    audio.play();
+  }
+</script>
