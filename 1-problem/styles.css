@@ -32,10 +32,3 @@ div{
 ul li{
     background-color:blue;
 }
-
-<ol>
-    <li>pizza</li>
-
-ol li.madeFromCorn {
-    background-color:yellow;
-}
